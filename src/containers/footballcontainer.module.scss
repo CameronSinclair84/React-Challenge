@@ -1,0 +1,32 @@
+.availablePlayers {
+  display: flex;
+  flex-wrap: wrap;
+  //   display: grid;
+  //   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  //   grid-gap: 10px;
+  //border: solid 2px red;
+  width: 50%;
+}
+
+.selectedTeam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.selectedGoalkeeper {
+  margin: 10px;
+}
+
+.selectedDefender,
+.selectedMidfielder,
+.selectedAttacker {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+}

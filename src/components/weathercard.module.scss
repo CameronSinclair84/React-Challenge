@@ -1,0 +1,42 @@
+p {
+  margin: 2px;
+}
+
+.weatherCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: solid 2px black;
+  height: 360px;
+  width: 300px;
+  background-color: rgb(114, 164, 197);
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 10px #888888;
+  &:hover {
+    background-color: rgb(70, 145, 196);
+    cursor: pointer;
+  }
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.cardRotated {
+  transform: rotateY(360deg);
+}
+
+.cityTitle {
+  margin: 25px;
+  font-weight: 800;
+}
+
+.conditionsContainer {
+  margin: 25px;
+  font-weight: 600;
+}
+
+.conditions {
+  display: flex;
+  justify-content: space-evenly;
+}
